@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+}
+
+#main-title {
+    color: blue;
+}
+
+#special-paragraph {
+
+}
+
+p {
+    font-size: 32px;
+}
+
+.highlight {
+    background-color: antiquewhite;
+}
+
+li {
+    list-style-type: circle;
+}
