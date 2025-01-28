@@ -1,0 +1,11 @@
+html {
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+}
+
+details {
+    font: 14px/1.5 serif;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
