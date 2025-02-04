@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    font-family: Lato, sans-serif;
+}
+
+.site {
+    background: white;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.site-header h1 {
+    padding: 2rem;
+    font-weight: 700;
+}
+
+.site-header h1 a{
+    color: green;
+    text-decoration: none;
+}
+
+.site-header nav {
+    background: #555;
+    color: #fff;
+}
+
+.site-header nav ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-header nav ul li + li a {
+    border-top: 1px solid #999;
+}
+
+.site-header nav ul li {
+    flex: 1 1 200px;
+}
+
+.site-header nav ul li,
+.site-header nav ul a {
+    display: block;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    color: #ddd;
+    padding: 1em 1.5em;
+}
+
+.site-header nav a:hover {
+    background: #222;
+    color: white;
+}
+
+.content-main,
+.content-aside {
+    padding: 2em;
+}
+
+.site-footer {
+    background: #555;
+    color: #ddd;
+    text-align: center;
+    padding: 1em;
+}
+
+.site-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-main {
+    flex: 1 1 400px;
+}
+
+.content-aside {
+    flex: 1 1 200px;
+}
+
