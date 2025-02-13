@@ -91,20 +91,19 @@ button {
 }
 
 .socials li {
-    display: block;
+    flex: 0 0 5em;
+    aspect-ratio: 2/1.5;
+    display: flex;
     border: 1px solid #ccc;
     line-height: 1;
     border-radius: 0.2em;
-    flex: 1 1 1em;
-}
-
-.socials > li:last-child {
-    flex: 0 1 61px;
 }
 
 .socials li a {
-    display: block;
-    padding: 1em;
-    text-align: center;
-    font-size: 1.4em;
+    flex: 1 1 auto;
+    display: flex;
+    font-size: 1.8em;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
