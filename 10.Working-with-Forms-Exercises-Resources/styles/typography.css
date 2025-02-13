@@ -5,6 +5,10 @@ html {
     font-size: clamp(10px, 10px + 0.25vw, 18px);
 }
 
+body, input, button, select, textarea {
+    font: inherit;
+}
+
 p, ul, ol {
     padding-bottom: 1.5em;
 }
