@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+.section.site-header {
+    background: linear-gradient(90deg, rgba(255,112,136,1) 0%, rgba(242,182,157,1) 100%);
+}
+
+.section nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section nav ul li {
+    padding: 1em 4em;
+    display: block;
+}
+
+.section nav ul li a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+
+.section nav ul li a.active {
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 1.3em 4em;
+    border-bottom-left-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+    background: linear-gradient(90deg, rgba(249,143,145,1) 0%, rgba(247,151,148,1) 100%);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.site-branding{
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.site-branding .site-title{
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+}
+
+.site-branding .site-desc {
+    color: white;
+    line-height: 1;
+    font-weight: 100;
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.site-branding a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.3em;
+}
+
+
+.car-gallery {
+    background: #F6F8FB;
+    margin-top: 6em;
+}
+
+.car-gallery .gallery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-gallery .gallery img{
+    width: 630px;
+}
+
+.section.call-to-action .inner{
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+    padding: 3em 0;
+}
+
+.section.call-to-action .inner .article {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 630px;
+    gap: 2em
+}
+
+.section.call-to-action .inner .article :last-child{
+    align-self: center;
+}
+
+.section.call-to-action .inner .article h2 {
+    font-size: 2.5em;
+    line-height: 1;
+    font-weight: 100;
+    opacity: 70%;
+}
+
+.section.call-to-action .inner .article p {
+    font-size: 1.3em;
+    opacity: 50%;
+}
+
+.section.call-to-action .inner .article .button.more {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    opacity: 50%;
+    font-size: 1.3em;
+    border: 1px solid black;
+    width: 170px;
+    border-radius: 0.3em;
+    padding: 1em;
+}
+
+
+.section.registration {
+    margin-top: 6em;
+    height: 380px;
+    width: auto;
+    background: url(images/promo.jpg);
+    background-size: cover;
+    
+}
+.section.section.registration .inner {
+    display: flex;
+    height: 380px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section.section.registration .inner .register-banner {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 2em;
+    display: flex;
+    gap: 2em;
+    border: 1px solid white;
+    padding: 2em;
+    border-radius: 0.5em;
+    color: white;
+    align-items: center;
+}
+
+.section.section.registration .inner .register-banner p {
+    font-weight: 100;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+
+.section.section.registration .inner .register-banner a {
+    text-decoration: none;
+    color: #518B80;
+    background: white;
+    padding: 0.5em 1em;
+    font-weight: 100;
+    border-radius: 0.3em;
+}
+
+.section.current-article {
+    height: 300px;
+    display: flex;
+    gap: 3em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section.current-article h3 {
+    font-size: 2.2em;
+    font-weight: 100;
+    margin-bottom: 0;
+    opacity: 70%;
+}
+
+.section.current-article a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    opacity: 50%;
+    font-size: 1.3em;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 0.3em;
+    padding: 1em;
+}
+
+.car-gallery-secondary {
+    margin-top: -3.5em;
+    background: #F6F8FB;
+}
+
+.section.car-gallery-secondary .gallery-secondary img {
+    width: 380px;
+    height: 210px;
+}
+
+.section.car-gallery-secondary .inner .gallery-secondary{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section.site-footer {
+    background: #F6F8FB;
+    border-top: 1px solid #ddd;
+    margin-top: 10em;
+}
+
+.section.site-footer .site-summary {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 5em 0;
+}
+
+.section.site-footer .site-summary h3 {
+    font-size: 3em;
+    font-weight: 100;
+    opacity: 50%;
+}
+
+.section.site-footer .site-summary p {
+    font-size: 2em;
+    color: red;
+    font-weight: 100;
+    opacity: 50%;
+}
+
+.section.site-footer .site-summary~p {
+    text-align: center;
+    padding: 8em 0;
+    opacity: 40%;
+}
+
+

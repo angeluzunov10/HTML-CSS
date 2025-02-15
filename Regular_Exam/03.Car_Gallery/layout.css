@@ -1,0 +1,8 @@
+.section {
+
+}
+
+.section .inner {
+    max-width: 1300px;  /* width на content-a */
+    margin: 0 auto;     /* центриране на content-a */
+}

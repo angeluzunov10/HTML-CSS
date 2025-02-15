@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font: 12px/1.5 'IBM Plex Mono', sans-serif;
+  box-sizing: border-box;
+}
+
+body, input, textarea, button {
+  font: inherit;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.site{
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #080808;
+  max-width: 850px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+}
+
+.card .inner {
+  padding: 0 5em 2em;
+}
+
+header {
+  background: #1b1b1b;
+  margin-top: 0;
+  border-bottom-right-radius: 0.7em;
+  border-bottom-left-radius: 0.7em;
+}
+
+header ul {
+  padding: 2em 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul li {
+  display: block;
+  color: #657D90;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul:first-child {
+  flex: 1 1 auto;
+}
+
+nav ul:last-child {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+nav ul:last-child li{
+  padding: 0;
+}
+
+.card-info {
+  display: flex;
+  padding: 3em;
+  gap: 5em;
+}
+
+.card-info .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.card-info .information h2 {
+  font-size: 2em;
+  color: #fff;
+  padding-bottom: 1em;
+}
+
+.card-info .information p {
+  color: #99958F;
+  line-height: 2;
+  padding-bottom: 0.5em;
+}
+
+.card-info aside {
+  flex: 1 0 200px;
+}
+
+.card-info aside img{
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  border-radius: 50%;
+}
+
+.card-info a{
+  background: #3F8E00;
+  max-width: 200px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 0.5em 2em;
+  border-radius: 0.3em;
+  margin-top: 0;
+}
+
+footer p {
+  color: #fff;
+  padding-bottom: 1em;
+}
+
+footer ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul li {
+  display: block;
+  border: 1px solid #99958F;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  padding: 1em 1em 0 1em;
+}
+
+footer ul li img {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
